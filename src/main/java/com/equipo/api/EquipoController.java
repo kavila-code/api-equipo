@@ -42,5 +42,9 @@ public String saludo() {
         return "Hola, soy Jhon Velez y este es mi endpoint.";
     }
 
+    @GetMapping("/Juan Fernando Ramirez Delgado")
+    public String saludo() {
+        return "Hola, soy Juan Fernando Ramirez Delgado y este es mi endpoint.";
+    }
 }
 
