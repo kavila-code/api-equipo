@@ -23,7 +23,7 @@ public class EquipoController {
 
 // Endpoint de Kelly
 @GetMapping("/kelly")
-public String kellyEndpoint() {
+public String saludo() {
     return "Hola, soy Kelly y este es mi endpoint.";
 }
 
