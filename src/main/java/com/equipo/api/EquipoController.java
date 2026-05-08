@@ -20,9 +20,14 @@ public class EquipoController {
     // Cada integrante del equipo agrega su método en esta sección.
     // Rama: feature/tu-nombre
     // ─────────────────────────────────────────────────────────────────
-    @GetMapping("/Juan-Felipe-Gordillo")
+
+    // ─────────────────────────────────────────────────────────────────
+    // ZONA DE TRABAJO DEL EQUIPO
+    // ─────────────────────────────────────────────────────────────────
+
+    @GetMapping("/Juan Fernando Ramirez Delgado")
     public String saludo() {
-        return "Hola, soy Juan Felipe Gordillo y este es mi endpoint.";
+        return "Hola, soy Juan Fernando Ramirez Delgado y este es mi endpoint.";
     }
 
 // Endpoint de Kelly
@@ -48,3 +53,5 @@ public String saludo() {
     }
 }
 
+
+}
