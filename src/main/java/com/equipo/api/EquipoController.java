@@ -20,5 +20,10 @@ public class EquipoController {
     // Cada integrante del equipo agrega su método en esta sección.
     // Rama: feature/tu-nombre
     // ─────────────────────────────────────────────────────────────────
+    @GetMapping("/Juan-Felipe-Gordillo")
+    public String saludo() {
+        return "Hola, soy Juan Felipe Gordillo y este es mi endpoint.";
+    }
 
 }
+
